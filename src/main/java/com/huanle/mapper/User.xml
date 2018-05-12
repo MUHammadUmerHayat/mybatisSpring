@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
 "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!-- namespace指向dao层的interface，interface里描述了sql语句的参数和返回值的类型 -->
 <mapper namespace="com.huanle.dao.UserMapper">
 	<!-- 为了返回list 类型而定义的returnMap -->
 	<resultMap type="User" id="resultUser">
