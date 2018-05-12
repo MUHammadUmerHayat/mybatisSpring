@@ -1,8 +1,8 @@
 # mybatisSpring
 
-##用 spring 这个粘合剂来管理 datasource 等。充分利用 spring 基于接口的编程，以及aop ,ioc 带来的方便。用 spring 来管理 mybatis
+## 用 spring 这个粘合剂来管理 datasource 等。充分利用 spring 基于接口的编程，以及aop ,ioc 带来的方便。用 spring 来管理 mybatis
 
-###在本示例中，需要完成这样的一个简单功能，即，指定一个用户（ID=1），查询出这个用户的基本信息，并关联查询这个用户的所有订单。
+### 在本示例中，需要完成这样的一个简单功能，即，指定一个用户（ID=1），查询出这个用户的基本信息，并关联查询这个用户的所有订单。
 
 ```
 CREATE TABLE `the_user` (
